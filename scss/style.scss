@@ -1,0 +1,18 @@
+/* base */
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/utils';
+
+/* components */
+@import 'components/navbar';
+@import 'components/footer';
+
+/* layout */
+@import 'layout/index';
+@import 'layout/servicios';
+@import 'layout/nosotros';
+@import 'layout/galeria';
+@import 'layout/contacto';
+
+/* media */
+@import 'components/media';

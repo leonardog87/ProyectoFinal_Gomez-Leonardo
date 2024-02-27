@@ -1,0 +1,110 @@
+/* main */
+
+.intro {
+    @include intro-banner;
+    background-image: url('../assets/imges/mascotas.jpg');
+    animation: $animation-title;
+}
+
+/* cards */
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 8px;
+}
+
+.card {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* carousel */
+
+.container-carousel {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-container;
+    min-height: 400px;
+    max-height: 100%;
+    word-wrap: break-word;
+    align-items: center;
+
+    img {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+        border: solid 2px black;
+        padding: 10px;
+    }
+
+    .text {
+        padding: 10px;
+
+        h2 {
+            text-align: center;
+            margin: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.carousel {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+    .slide {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        animation: carousel 13s infinite linear;
+        object-fit: cover;
+
+        &:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        &:nth-child(2) {
+            animation-delay: 5s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 10s;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@keyframes carousel {
+    0% {
+        opacity: 0;
+    }
+
+    8% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
