@@ -71,9 +71,11 @@
   /* navbar - navtop */
 
   .nav-top {
-    flex-direction: row;
-    justify-content: space-between;
     padding: 15px 50px 15px 50px;
+
+    p {
+      font-size: 25px;
+    }
 
     svg {
       width: 18px;
@@ -262,6 +264,10 @@
   /* navtop */
 
   .nav-top {
+    p {
+      font-size: 30px;
+    }
+
     svg {
       width: 20px;
       height: 20px;

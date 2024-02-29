@@ -15,30 +15,16 @@
   }
 
   .nosotros-box {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    word-wrap: break-word;
-    padding: 10px;
+    @include nosotros-box;
   }
 
   .nosotros-box-reverse {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    word-wrap: break-word;
-    padding: 10px;
+    @include nosotros-box;
   }
 
   .nosotros-texto {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(199, 182, 182);
+    @include nosotros-texto;
+    background-color: $color-nosotros-box;
   }
 
   .logo-imagen {
@@ -52,11 +38,7 @@
   }
 
   .equipo-texto {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include nosotros-texto;
     background-color: rgb(116, 110, 110);
   }
 
@@ -71,12 +53,8 @@
   }
 
   .centro-texto {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(199, 182, 182);
+    @include nosotros-texto;
+    background-color: $color-nosotros-box;
   }
 
   .centro-imagen {

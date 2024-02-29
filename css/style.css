@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+/* MIXIN */
+/* banner text background */
+/* box nosotros */
+/* ANIMACIONES */
 @keyframes title-animation {
   from {
     color: transparent;
@@ -36,15 +40,12 @@
   background-repeat: no-repeat;
   background-size: 0 10%;
   transition: background-size 1s;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 .nav-top p:hover {
   background-size: 100% 10%;
-}
-
-.nav-top p {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
 }
 
 .nav-top-list {
@@ -544,9 +545,10 @@ footer {
   }
   /* navbar - navtop */
   .nav-top {
-    flex-direction: row;
-    justify-content: space-between;
     padding: 15px 50px 15px 50px;
+  }
+  .nav-top p {
+    font-size: 25px;
   }
   .nav-top svg {
     width: 18px;
@@ -687,6 +689,9 @@ footer {
     width: 800px;
   }
   /* navtop */
+  .nav-top p {
+    font-size: 30px;
+  }
   .nav-top svg {
     width: 20px;
     height: 20px;

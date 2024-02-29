@@ -1,11 +1,16 @@
+
+/* MIXIN */
+
+/* banner text background */
+
 @mixin intro-banner {
   background-size: cover;
   min-height: 600px;
   max-height: 100%;
   width: 100%;
   align-items: center;
-  padding: 10px;  
-  color: black;  
+  padding: 10px;
+  color: black;
   word-wrap: break-word;
 
   h1 {
@@ -21,8 +26,33 @@
   }
 }
 
-@keyframes title-animation
-{
-    from {color:transparent}
-    to{color:black}
+/* box nosotros */
+
+@mixin nosotros-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+@mixin nosotros-texto {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ANIMACIONES */
+
+@keyframes title-animation {
+  from {
+    color: transparent
+  }
+
+  to {
+    color: black
+  }
 }

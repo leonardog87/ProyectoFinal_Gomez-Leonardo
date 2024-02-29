@@ -12,23 +12,21 @@
     text-decoration: none;
   }
 
-  p { 
+  p {
     color: black;
     background: linear-gradient(black, black);
     background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: 0 10%;
     transition: background-size 1s;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+
     &:hover {
       background-size: 100% 10%;
     }
   }
-}
-
-.nav-top p {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
 }
 
 .nav-top-list {
