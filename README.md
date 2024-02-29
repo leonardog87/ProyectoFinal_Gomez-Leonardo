@@ -1,11 +1,11 @@
 
 # Proyecto Final
-Desarrollo Web - CoderHouse - Comision 43870
+CoderHouse - Desarrollo Web - Comision 43870
 Gomez, Leonardo Javier
 
 El sitio web se desarrollo con el fin de dar a conocer un emprendimiento (en este caso se trata de una veterinaria).
 En la web podrás encontrar información relacionada sobre la veterinaria, sobre los profesionales que trabajan en ella
-y también tendrás información sobre los tratamientos médicos que brindan.
+y también tendrás información sobre los servicios/tratamientos médicos que brindan.
 
 LINKS / HTML:
 
